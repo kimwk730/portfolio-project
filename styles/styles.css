@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #ffaaa5;
+  --base-color: #fcf8f3;
+  --secondary-color: #ffd3b6;
+  --accent-color: #698474;
+}
+
+body {
+  text-align: center;
+  padding: 30px 30px;
+  background-color: var(--base-color);
+  border: 1px double var(--accent-color);
+  border-radius: 7px;
+}
+button {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: var(--primary-color);
+}
+.contents {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contents p {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  margin: 10px;
+}
