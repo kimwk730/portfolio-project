@@ -6,7 +6,6 @@
 }
 
 body {
-	text-align: center;
 	background-color: var(--beige);
 	border-radius: 7px;
 	font-family: "Quicksand", sans-serif;
@@ -16,7 +15,8 @@ body {
 	color: white;
 	background-color: var(--blue);
 	padding: 160px 20px;
-	line-height: ;
+	line-height: 10px;
+	text-align: center;
 }
 
 .hero h1 {
@@ -26,6 +26,61 @@ body {
 	padding: 10px;
 }
 
+.home-contents {
+	padding: 80px 20px;
+}
+.home-contents .projects {
+	font-family: "Bungee Outline", cursive;
+	color: var(--green);
+	font-size: 70px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+.home-contents .row {
+	padding: 40px 20px;
+}
+.home-contents .info {
+	color: var(--green);
+	text-align: right;
+}
+.home-contents .middle {
+	text-align: left;
+}
+.home-contents .title {
+	font-family: "Bungee", cursive;
+	font-size: 35px;
+}
+.home-contents p {
+	font-size: 25px;
+}
+.home-contents .btn {
+	color: var(--green);
+	background-color: var(--beige);
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 0 10px;
+	padding: 4px 16px;
+	transition-duration: 0.2s;
+}
+.home-contents .btn:hover {
+	color: var(--beige);
+	background-color: var(--green);
+}
+.github-logo {
+	width: 25px;
+	transition-duration: 0.2s;
+}
+.github-logo:hover {
+	width: 35px;
+}
+.project-image {
+	max-width: 300px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	display: block;
+	margin: auto;
+}
 /* button {
   padding: 10px;
   border-radius: 7px;
