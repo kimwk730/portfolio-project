@@ -54,7 +54,7 @@ body {
 .home-contents p {
 	font-size: 25px;
 }
-.home-contents .btn {
+.home-contents .launch {
 	color: var(--green);
 	background-color: var(--beige);
 	border: 1px solid;
@@ -63,16 +63,18 @@ body {
 	padding: 4px 16px;
 	transition-duration: 0.2s;
 }
-.home-contents .btn:hover {
+.home-contents .launch:hover {
 	color: var(--beige);
 	background-color: var(--green);
 }
 .github-logo {
-	width: 25px;
+	color: var(--green);
+	font-size: 25px;
+	vertical-align: middle;
 	transition-duration: 0.2s;
 }
 .github-logo:hover {
-	width: 35px;
+	font-size: 35px;
 }
 .project-image {
 	max-width: 300px;
@@ -81,11 +83,40 @@ body {
 	display: block;
 	margin: auto;
 }
-/* button {
-  padding: 10px;
-  border-radius: 7px;
-  background-color: var(--primary-color);
-} */
+.home-contact {
+	background-color: var(--blue);
+	color: white;
+	text-align: center;
+	padding: 50px 20px;
+	line-height: 4em;
+}
+.home-contact .inquiry {
+	font-family: "Bungee Outline", cursive;
+	font-size: 35px;
+	color: var(--pink);
+}
+.home-contact .contact-btn {
+	color: var(--pink);
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 0 10px;
+	padding: 4px 16px;
+	transition-duration: 0.2s;
+}
+.home-contact .contact-btn:hover {
+	background-color: var(--pink);
+	color: var(--blue);
+}
+.home-contact i {
+	color: var(--pink);
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 25px;
+	transition-duration: 0.2s;
+}
+.home-contact i:hover {
+	font-size: 35px;
+}
 
 font-family: "Bungee", cursive;
 font-family: "Bungee Outline", cursive;
