@@ -5,10 +5,26 @@
 	--blue: #264e70;
 }
 
+/* font-family: "Bungee", cursive;
+font-family: "Bungee Outline", cursive;
+font-family: "Bungee Shade", cursive;
+font-family: "Quicksand", sans-serif; */
+
 body {
 	background-color: var(--beige);
-	border-radius: 7px;
 	font-family: "Quicksand", sans-serif;
+}
+.navbar {
+	background-color: var(--blue);
+	padding: 0 20px;
+}
+.navbar-brand {
+	font-family: "Bungee Shade", cursive;
+	font-size: 35px;
+	color: var(--pink);
+}
+.nav-link {
+	color: white;
 }
 
 .hero {
@@ -117,8 +133,3 @@ body {
 .home-contact i:hover {
 	font-size: 35px;
 }
-
-font-family: "Bungee", cursive;
-font-family: "Bungee Outline", cursive;
-font-family: "Bungee Shade", cursive;
-font-family: "Quicksand", sans-serif;
