@@ -21,7 +21,7 @@ body {
 .navbar-brand {
 	font-family: "Bungee Shade", cursive;
 	font-size: 35px;
-	color: var(--pink);
+	color: white;
 }
 .nav-link {
 	color: white;
