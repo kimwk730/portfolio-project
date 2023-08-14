@@ -41,36 +41,71 @@ body {
 	font-family: "Bungee Shade", cursive;
 	padding: 10px;
 }
-
-.home-contents {
-	padding: 80px 20px;
-}
-.home-contents .projects {
+.projects {
 	font-family: "Bungee Outline", cursive;
 	color: var(--green);
 	font-size: 70px;
 	font-weight: bold;
-	padding: 10px;
 	text-align: center;
 }
-.home-contents .row {
+/* ///// */
+.pj-thumbnail {
+	position: relative;
+	width: 50%;
+	margin: auto;
+}
+.pj-thumbnail img {
+	opacity: 1;
+	display: block;
+	transition: 0.5s ease;
+	backface-visibility: hiddenen;
+	width: 100%;
+	height: auto;
+}
+.middle {
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.pj-thumbnail:hover img {
+	opacity: 0.3;
+}
+.pj-thumbnail:hover .middle {
+	opacity: 1;
+}
+.pj-name {
+	background-color: #04aa6d;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+/* ////// */
+.project-page {
+	padding: 80px 20px;
+}
+.project-page .row {
 	padding: 40px 20px;
 }
-.home-contents .info {
+.project-page .info {
 	color: var(--green);
 	text-align: right;
 }
-.home-contents .middle {
+.project-page .middle {
 	text-align: left;
 }
-.home-contents .title {
+.project-page .title {
 	font-family: "Bungee", cursive;
 	font-size: 35px;
 }
-.home-contents p {
+.project-page p {
 	font-size: 25px;
 }
-.home-contents .launch {
+.project-page .launch {
 	color: var(--green);
 	background-color: var(--beige);
 	border: 1px solid;
@@ -79,7 +114,7 @@ body {
 	padding: 4px 16px;
 	transition-duration: 0.2s;
 }
-.home-contents .launch:hover {
+.project-page .launch:hover {
 	color: var(--beige);
 	background-color: var(--green);
 }
