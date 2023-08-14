@@ -34,12 +34,14 @@ body {
 	line-height: 10px;
 	text-align: center;
 }
-
 .hero h1 {
 	color: var(--pink);
 	font-size: 96px;
 	font-family: "Bungee Shade", cursive;
 	padding: 10px;
+}
+.home-body {
+	padding: 100px 20px;
 }
 .projects {
 	font-family: "Bungee Outline", cursive;
@@ -47,20 +49,22 @@ body {
 	font-size: 70px;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 50px;
 }
-/* ///// */
 .pj-thumbnail {
 	position: relative;
-	width: 50%;
-	margin: auto;
+
+	display: inline;
 }
 .pj-thumbnail img {
 	opacity: 1;
-	display: block;
 	transition: 0.5s ease;
-	backface-visibility: hiddenen;
+	backface-visibility: hidden;
 	width: 100%;
 	height: auto;
+	margin: 10px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 2%;
 }
 .middle {
 	transition: 0.5s ease;
@@ -79,12 +83,36 @@ body {
 	opacity: 1;
 }
 .pj-name {
-	background-color: #04aa6d;
+	background-color: var(--green);
 	color: white;
 	font-size: 16px;
+	font-weight: bold;
 	padding: 16px 32px;
+	border-radius: 10px;
 }
-/* ////// */
+.scroll-container {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	width: 50%;
+	margin: auto;
+	border: solid 1px var(--green);
+	border-radius: 4px;
+}
+.pj-learn-btn {
+	color: white;
+	background-color: var(--green);
+	border-radius: 10px;
+	margin: 50px auto 20px auto;
+	display: block;
+	padding: 4px 16px;
+	transition-duration: 0.2s;
+}
+.pj-learn-btn:hover {
+	color: var(--green);
+	border: 1px solid;
+}
+
 .project-page {
 	padding: 80px 20px;
 }
