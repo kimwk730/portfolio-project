@@ -43,7 +43,7 @@ body {
 .home-body {
 	padding: 100px 20px;
 }
-.projects {
+.headline {
 	font-family: "Bungee Outline", cursive;
 	color: var(--green);
 	font-size: 70px;
@@ -123,7 +123,7 @@ body {
 	color: var(--green);
 	text-align: right;
 }
-.project-page .middle {
+.project-page .mid-left {
 	text-align: left;
 }
 .project-page .title {
@@ -195,4 +195,52 @@ body {
 }
 .home-contact i:hover {
 	font-size: 35px;
+}
+body.about {
+	background-color: var(--blue);
+	color: white;
+}
+.about .container {
+	padding: 100px 30px;
+}
+.about .col-7 {
+	font-size: 25px;
+	line-height: 2em;
+	text-align: right;
+	padding-right: 30px;
+	font-family: "Bungee", cursive;
+}
+.about #name {
+	color: var(--pink);
+}
+.about p {
+	font-size: 15px;
+	line-height: 1.5em;
+	padding-top: 30px;
+	font-family: "Quicksand", sans-serif;
+}
+.about .tools {
+	text-align: center;
+	padding: 50px 50px;
+	font-size: 25px;
+	font-family: "Bungee", cursive;
+}
+body.contact {
+	background-color: var(--blue);
+	color: var(--pink);
+	padding: 180px 20px;
+}
+.contact .body {
+	line-height: 2em;
+	text-align: center;
+	font-family: "Bungee Outline", cursive;
+	font-size: 50px;
+}
+.contact .email {
+	font-family: "Quicksand", sans-serif;
+	font-size: 35px;
+}
+.contact i {
+	color: var(--pink);
+	padding: 0 20px;
 }
