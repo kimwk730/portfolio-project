@@ -73,7 +73,6 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	text-align: center;
 }
 .pj-thumbnail:hover img {
@@ -112,7 +111,37 @@ body {
 	color: var(--green);
 	border: 1px solid;
 }
-
+.home-contact .inquiry {
+	font-family: "Bungee Outline", cursive;
+	font-size: 35px;
+	color: var(--pink);
+}
+.home-contact .contact-btn {
+	color: var(--pink);
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 0 10px;
+	padding: 4px 16px;
+	transition-duration: 0.2s;
+}
+.contact-btn a {
+	text-decoration: none;
+	color: var(--pink);
+}
+.home-contact .contact-btn:hover {
+	background-color: var(--pink);
+	color: var(--blue);
+}
+.home-contact i {
+	color: var(--pink);
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 25px;
+	transition-duration: 0.2s;
+}
+.home-contact i:hover {
+	font-size: 35px;
+}
 .project-page {
 	padding: 80px 20px;
 }
@@ -162,6 +191,13 @@ body {
 	display: block;
 	margin: auto;
 }
+@media (max-width: 600px) {
+	.headline {
+		margin-top: 50px;
+		font-size: 50px;
+	}
+}
+
 .home-contact {
 	background-color: var(--blue);
 	color: white;
@@ -169,37 +205,7 @@ body {
 	padding: 50px 20px;
 	line-height: 4em;
 }
-.home-contact .inquiry {
-	font-family: "Bungee Outline", cursive;
-	font-size: 35px;
-	color: var(--pink);
-}
-.home-contact .contact-btn {
-	color: var(--pink);
-	border: 1px solid;
-	border-radius: 10px;
-	margin: 0 10px;
-	padding: 4px 16px;
-	transition-duration: 0.2s;
-}
-.contact-btn a {
-	text-decoration: none;
-	color: var(--pink);
-}
-.home-contact .contact-btn:hover {
-	background-color: var(--pink);
-	color: var(--blue);
-}
-.home-contact i {
-	color: var(--pink);
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 25px;
-	transition-duration: 0.2s;
-}
-.home-contact i:hover {
-	font-size: 35px;
-}
+
 body.about {
 	background-color: var(--blue);
 	color: white;
@@ -207,7 +213,7 @@ body.about {
 .about .container {
 	padding: 100px 30px;
 }
-.about .col-7 {
+.about .info {
 	font-size: 25px;
 	line-height: 2em;
 	text-align: right;
@@ -229,6 +235,7 @@ body.about {
 	font-size: 25px;
 	font-family: "Bungee", cursive;
 }
+
 body.contact {
 	background-color: var(--blue);
 	color: var(--pink);
@@ -243,6 +250,11 @@ body.contact {
 .contact .email {
 	font-family: "Quicksand", sans-serif;
 	font-size: 35px;
+}
+@media (max-width: 600px) {
+	.contact .email {
+		font-size: 20px;
+	}
 }
 .contact i {
 	color: var(--pink);
