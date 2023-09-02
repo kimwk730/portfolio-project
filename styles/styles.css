@@ -172,7 +172,6 @@ body {
 	transition-duration: 0.2s;
 }
 .project-page .launch:hover {
-	color: var(--beige);
 	background-color: var(--green);
 }
 .github-logo {
@@ -183,6 +182,13 @@ body {
 }
 .github-logo:hover {
 	font-size: 35px;
+}
+.project-page a {
+	text-decoration: none;
+	color: var(--green);
+}
+.project-page a:hover {
+	color: var(--beige);
 }
 .project-image {
 	max-width: 300px;
