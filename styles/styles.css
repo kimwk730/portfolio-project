@@ -197,6 +197,12 @@ body {
 	display: block;
 	margin: auto;
 }
+.project-page .d-md-none {
+	color: var(--green);
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+}
 @media (max-width: 600px) {
 	.headline {
 		margin-top: 50px;
