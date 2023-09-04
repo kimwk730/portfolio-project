@@ -44,7 +44,7 @@ body {
 	padding: 100px 20px;
 }
 .headline {
-	font-family: "Bungee Outline", cursive;
+	font-family: "Bungee", cursive;
 	color: var(--green);
 	font-size: 70px;
 	font-weight: bold;
@@ -241,7 +241,12 @@ body.about {
 	font-size: 25px;
 	font-family: "Bungee", cursive;
 }
-
+@media (max-width: 600px) {
+	.about .tools {
+		padding: 0;
+		margin-top: 30px;
+	}
+}
 body.contact {
 	background-color: var(--blue);
 	color: var(--pink);
